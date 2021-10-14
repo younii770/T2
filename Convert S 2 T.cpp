@@ -11,7 +11,7 @@ int main()
 	minutes = seconds / 60;
 	hours = minutes / 60;
 
-	cout << "\n The time is " <<hours<< " : " <<minutes%60<<" : " <<seconds%60;
+	cout << "\n The time is " <<hours%24<< " : " <<minutes%60<<" : " <<seconds%60;
 
 	return 0;
 }
